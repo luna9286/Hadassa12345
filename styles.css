@@ -1,0 +1,64 @@
+body {
+    color: white;
+    background: black;
+    margin: 0px;
+    font-family: "monstserrat", sans-serif;
+    margin-bottom: 100px;
+}
+
+header {
+       border-bottom: solid 2px rgb(252, 9, 9);
+       padding: 0px;
+       font-size:32px;
+       color: rgb(252, 32, 105);
+}
+
+.chamada {
+    background: rgb(61, 13, 53);
+    padding-bottom: 80px;
+    padding-top: 80px;
+    display: flex;
+    justify-content: center;
+}
+
+.chamada-texto {
+    margin-right: 5%;
+}
+
+h1 {
+    font-size: 35px;
+}
+
+p {
+    font-size: 25px;
+}
+
+img {
+    height: 200px;
+}
+
+.sertanejo-videos {
+    display: flex;
+    overflow-x: auto;
+    gap: 5px;
+}
+
+.sertanejo {
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 50px;
+}
+
+.sertanejo-videos img {
+    opacity: 0,8;
+}
+
+.setanejo-videos img:hover {
+    opacity: 0,3;
+    border: 3px solid rgba(245, 3, 3, 0.979);
+}
+
+.sertanejo h2 {
+    color: rgb(202, 28, 28);
+}
+
